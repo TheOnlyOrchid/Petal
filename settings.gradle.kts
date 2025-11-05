@@ -1,18 +1,10 @@
-rootProject.name = "ModName"
-
 pluginManagement {
     repositories {
-        mavenCentral()
+        maven("https://maven.fabricmc.net/")
         gradlePluginPortal()
-        maven("https://maven.fabricmc.net/") {
-            name = "Fabric"
-        }
-        maven("https://maven.minecraftforge.net/") {
-            name = "Forge"
-        }
+        mavenCentral()
     }
 }
 
-include("common")
-include("fabric")
-include("forge")
+rootProject.name = "flash-blade-mod"
+

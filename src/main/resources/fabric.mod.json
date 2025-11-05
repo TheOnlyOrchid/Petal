@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "flashblade",
+  "version": "${version}",
+  "name": "Flash Blade",
+  "description": "A flashy particle blade written in Kotlin.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.flashblade.FlashBladeMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.6",
+    "fabric": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
+
