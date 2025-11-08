@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "petal",
+  "version": "${version}",
+  "name": "Petal",
+  "description": "Petal auto-applies developer-friendly client settings and bootstraps a safe superflat workspace world.",
+  "authors": [
+    "Orchid Studio Portfolio"
+  ],
+  "contact": {
+    "homepage": "https://example.com/petal"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.orchid.petal.Petal"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.7",
+    "minecraft": "1.21.10",
+    "fabric": "*",
+    "fabric-language-kotlin": "*"
+  },
+  "mixins": [
+    "petal.mixins.json"
+  ]
+}
